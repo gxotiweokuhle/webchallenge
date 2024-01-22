@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    background-color: white; 
+}
+
+.logo img{
+    max-width: 300px;
+    margin-left: 200px;
+}
+
+.menu img{
+    max-width: 40px;
+    margin-right: 250px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 25px;
+}
+.line1{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 180px;
+}
+.blue{
+    position: absolute;
+    top: 180px;
+    left: 0;
+    background-color: #244ac2;
+    color: white;
+    padding: 29px;
+    z-index: 20;
+    width: 39%; 
+    /* margin-left: 20px; */
+    margin-top: 180px;
+}
+
+.black{
+    position: absolute;
+    top: 180px;
+    left: 0;
+    z-index: 1;
+    background-color: black;
+    width: 39.5%; 
+    height: 70px;
+    margin-top: 170px;
+    margin-left: 85%; 
+}
+
+
+.slider-container {
+   
+    margin-top: 15%;
+    position: relative;
+    max-width: 70%;
+    margin: auto;
+    margin-top: -15%;
+    margin-bottom: 2px;
+    height: 25%;
+
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  
+}
+
+.slide{
+      flex: 0 0 100%;
+}
+
+.slide img {
+    margin-top: 150px;
+    width: 100%;
+    height: 80%;
+   
+}
+
+.arrow{
+    
+    position: absolute;
+    z-index: 20;
+    background-image: url('https://visiofund.co.za/wp-content/themes/visio/images/slider-next.svg');
+    top: 57%;
+    right: 0;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    height: 80px;
+    width: 100px;
+    margin-top: -40px;
+
+   
+}
+
+.dots-container {
+
+    position: absolute;
+    bottom: 100px;
+    left: 80%;
+    transform: translateX(-50%);
+    display: flex;
+    overflow: hidden;
+   
+}
+
+.dot {
+    background-image: url('https://visiofund.co.za/wp-content/themes/visio/images/slider-dots.svg');
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 1px;
+    margin-bottom: 0px;
+    
+}
+
+.active{
+    opacity: 0.40;
+    transform: rotate(160deg);
+}
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 99px;
+    margin-top: 15px;
+   
+   
+}
+
+.text{
+   
+    display: flex;
+    margin-left: 9%;
+    font-size: 17px;
+   
+ 
+}
+.img-container{
+    margin-bottom: 50px;
+    margin-right: 9%;
+}
+
+span{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.block1{
+   
+    background-color: #061c2c;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    width: 350px;
+    height:auto;
+    margin-left: 60px;
+    
+}
+.block1 img{
+    margin-top: 10px;
+   
+}
+.block2{
+    background-color: #061c2c;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    width: 350px;
+    height:auto;
+}
+.block2 img{
+    margin-top: 10px;
+   
+}
+.block3{
+    background-color: #061c2c;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    width: 350px;
+    height:auto;
+    margin-right: 190px;
+}
+.block3 img{
+    margin-top: 10px;
+   
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.sign{
+    width: 90px;
+}
+.sign img{
+    width: 30px;
+    height: 20px;
+    margin-left: 50px;
+    padding-left: 10px;
+    margin-top: 5px;
+   
+    
+}
+
+.sub1{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+.sub2{
+    display: flex;
+    justify-content: center;
+    margin-right:30px;
+}
+
+h5{
+    font-size: 10px;
+}
+.link1{
+    display: flex;
+    align-items: center;
+    background-color: #244ac2;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    padding-left: 15px;
+    height: auto;
+    margin-right: 29px;
+   
+}
+
+.link2{
+    display: flex;
+    align-items: center;
+    background-color: #244ac2;
+    color: white;
+    margin-bottom: 30px;
+    
+    margin-right: 45px;
+    padding-left: 15px;
+    height: auto;
+}
+
+/* VISO2 subs */
+/* .link3{
+    display: flex;
+    align-items: center;
+    background-color: #244ac2;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding-left: 15px;
+    height: 30px;
+}
+
+.greater{
+    width: 50px;
+}
+
+.greater img{
+    width: 28px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+} */
+
+
+/* .link4{
+    display: flex;
+    align-items: center;
+    background-color: #244ac2;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding-left: 15px;
+    height: 30px;
+}
+
+.arr{
+    width: 80px;
+}
+
+.arr img{
+    width: 28px;
+    height: 20px;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+/* visio3 subs */
+
+/* .link5{
+    display: flex;
+    align-items: center;
+    background-color: #244ac2;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding-left: 15px;
+    height: 30px;
+}
+
+.arr4{
+    width: 80px;
+}
+
+.arr4 img{
+    width: 28px;
+    height: 20px;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.link6{
+    display: flex;
+    align-items: center;
+    background-color: #244ac2;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding-left: 15px;
+    height: 30px;
+}  */
+
+/* .arr5{
+    width: 80px;
+}
+
+.arr5 img{
+    width: 28px;
+    height: 20px;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+#visio1
+{
+    display: inline-block;
+} */
+
+
+
+.blocks{
+    display: flex;
+}
