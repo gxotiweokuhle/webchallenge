@@ -69,7 +69,7 @@ nav{
     margin-top: -15%;
     margin-bottom: 2px;
     height: 25%;
-
+   
 }
 
 .slider {
@@ -171,7 +171,7 @@ span{
 .block1{
    
     background-color: #061c2c;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     padding-left: 30px;
     padding-bottom: 10px;
     width: 350px;
@@ -186,7 +186,7 @@ span{
 }
 .block2{
     background-color: #061c2c;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     padding-left: 30px;
     padding-bottom: 10px;
     width: 350px;
@@ -198,12 +198,11 @@ span{
 }
 .block3{
     background-color: #061c2c;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     padding-left: 30px;
     padding-bottom: 10px;
     width: 350px;
     height:auto;
-    margin-right: 190px;
 }
 .block3 img{
     margin-top: 10px;
@@ -212,44 +211,42 @@ span{
 .all{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     margin-left: 10%;
+    margin-top: 30px;
+    margin-right: 20%;
  
 }
 
-.sublink1{
+.sublink1, .sublink2 , .sublink3{
     display: flex;
-   gap: 12px;
+   /* gap: 10px; */
+   
+ 
  
 }
-.sublink2{
-    display: flex;
-    gap: 12px;
-}
-.sublink3{
-    display: flex;
-    gap: 12px;
-}
+
+
 h5{
-    font-size: 10px;
+    font-size: 8px;
     
 }
 
 .link1 img{
-    width: 32px;
+    width: 33px;
     padding-left: 14px;
-    margin-left: 55px;
+    padding-right: 5px;
+    margin-left: 58px;
     margin-top: 5px;
    
 }
 
 .link1{
     display: flex;
-    /* gap: 12px; */
     align-items: center;
     background-color: #244ac2;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 59px;
     margin-left: 59px;
     padding-left: 8px;
     height: auto;
@@ -259,67 +256,71 @@ h5{
 }
 
 .link2 img{
-    width: 32px;
-    padding-left: 14px;
-    margin-left: 67px;
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: 69px;
     margin-top: 5px;
 }
 
 .link2{
     display: flex;
-    gap: 10px;
     align-items: center;
     background-color: #244ac2;
     color: white;
-    margin-bottom: 40px;
-    margin-left: 3px;
-    padding-left: 4px;
+    margin-bottom: 59px;
+    margin-left: 14px;
+    padding-left: 9px;
     height:auto;
     max-width: 180px;
     
 }
 .link3 img{
-    width: 25px;
+   
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
     margin-left: 5px;
-    padding-left: 7px;
     margin-top: 5px;
 }
 .link3{
+  
     display: flex;
     align-items: center;
     background-color: #244ac2;
     color: white;
-    max-width: 190px;
-    margin-bottom: 59px;
-    /* margin-left: 56px; */
-    padding-left: 8px;
-    height: auto;
+    margin-bottom: 65px;
+    padding-left: 9px;
+    height:auto;
+    max-width: 180px;
+    
 }
 
 .link4 img{
-    width: 28px;
-    padding-left: 9px;
-    margin-left: 72px;
+    width: 32px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: 79px;
     margin-top: 5px;
 }
 .link4{
     display: flex;
-    gap: 10px;
     align-items: center;
     background-color: #244ac2;
     color: white;
     max-width: 190px;
-    margin-bottom: 59px;
-    margin-left: 2px;
-    padding-left: 5px;
+    margin-left: 15px;
+    margin-bottom: 65px;
+    padding-left: 9px;
     height: auto;
 }
 
 .link5 img{
-    width: 28px;
+    width: 30px;
     margin-top: 5px;
-    margin-left: 35px;
+    margin-left: 5px;
     padding-left: 7px;
+    padding-right: 9px;
 }
 
 .link5{
@@ -328,17 +329,18 @@ h5{
     background-color: #244ac2;
     color: white;
     max-width: 190px;
-    margin-bottom: 66px;
-    /* margin-left: 1px; */
-    padding-left: 15px;
+    margin-bottom: 93px;
+    padding-left: 9px;
     height: auto;
+   
 }
 
 .link6 img{
     width: 30px;
     margin-top: 5px;
-    margin-left: 23px;
+    margin-left: 79px;
     padding-left: 10px;
+    padding-right: 5px;
 }
 
 .link6 {
@@ -347,8 +349,8 @@ h5{
     background-color: #244ac2;
     color: white;
     max-width: 190px;
-    margin-bottom: 66px;
-    margin-left: 2px;
-    padding-left: 15px;
+    margin-bottom: 95px;
+    margin-left: 15px;
+    padding-left: 5px;
     height: auto;
 }
