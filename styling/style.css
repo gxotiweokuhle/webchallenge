@@ -1187,7 +1187,7 @@ h5{
     .slider-container{
         
         max-width: 100%;
-        margin-top: -33%;
+        margin-top: -30%;
        
     }
     .blue{
@@ -1261,7 +1261,7 @@ h5{
     .slider-container{
         
         max-width: 100%;
-        margin-top: -33%;
+        margin-top: -30%;
        
     }
     .blue{
@@ -1386,11 +1386,87 @@ h5{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        /* padding: 40px; */
+      
     }
    
     .card{
-        width: 375px;
+        width: 300px;
+    }
+ 
+
+}
+@media only screen  and (min-width: 1001px) and (max-width:1246px){
+    .topnav{
+        display: flex;
+       
+    }
+    .menu{
+        margin-right: 50px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .slider-container{
+        
+        max-width: 100%;
+        margin-top: -33%;
+       
+    }
+    .blue{
+       
+        margin-top: -5%;
+        padding-right: 3px;
+    }
+    .black{
+        
+        margin-top: -15%;
+        z-index: -2;
+        height: 45px;
+    }
+    .line1{
+        text-align: center;
+        margin-left: 3px;
+        padding-top: 15px;
+        font-size: 8px;
+    }
+
+    .arrow{
+        width: 39px;
+        top: 68%;
+    }
+    .dots-container{
+        margin-left: 66%;
+        bottom: 15px;
+        left: 1%;
+    }
+    .dot{
+        width: 18px;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .text{
+        font-size: 14px;
+        padding-right: 35px;
+        padding-left: 9px;
+    }
+    .img-container img{
+        width: 150px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* padding: 40px; */
+      
+    }
+   
+    .card{
+        width: 300px;
     }
  
 
