@@ -1198,7 +1198,8 @@ h5{
     .info{
         display: flex;
         flex-direction: row;
-        margin-bottom: 20px;
+        margin-top: 20px;
+        /* margin-bottom: 20px; */
     }
     .text{
         font-size: 16px;
@@ -1211,14 +1212,35 @@ h5{
     }
     .cards{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 20px;
+        width: 100%;
     }
-   
+    .name{
+        font-size: 12px;
+        
+    }
+    .sign{
+        font-size: 13px;
+    }
+    .heading{
+        font-size: 18px;
+    }
     .card{
-        width: 375px;
+        width: 300px;
+    }
+    .card2, .card3, .smallcards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    
+    .link1, .link2, .link3, .link4, .link5, .link6{
+        width: 210px;
     }
  
 
@@ -1261,7 +1283,7 @@ h5{
         top: 55%;
     }
     .dots-container{
-        margin-left: 66%;
+        margin-left: 72%;
         bottom: 15px;
         left: 1%;
     }
@@ -1271,19 +1293,22 @@ h5{
     .info{
         display: flex;
         flex-direction: row;
-        margin-bottom: 20px;
+       justify-content: center;
+       align-items: center;
+       margin-top: 10px;
     }
     .text{
-        font-size: 14px;
+        font-size: 16px;
         padding-right: 35px;
         padding-left: 9px;
     }
     .img-container img{
         width: 150px;
+        margin-right: 20px;
     }
     .cards{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 20px;
@@ -1292,10 +1317,32 @@ h5{
     .card{
         width: 375px;
     }
- 
+    .name{
+        font-size: 12px;
+        
+    }
+    .sign{
+        font-size: 13px;
+    }
+    .heading{
+        font-size: 18px;
+    }
+    .card{
+        width: 300px;
+    }
+    .card2, .card3, .smallcards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .link1, .link2, .link3, .link4, .link5, .link6{
+        width: 230px;
+    }
 
 }
-@media only screen  and (min-width: 801px) and (max-width:840px){
+@media only screen  and (min-width: 800px) and (max-width:840px){
     .topnav{
         display: flex;
        
@@ -1359,12 +1406,32 @@ h5{
         justify-content: center;
         align-items: center;
         padding: 20px;
+        width: 100%;
     }
-   
+    .name{
+        font-size: 12px;
+        
+    }
+    .sign{
+        font-size: 13px;
+    }
+    .heading{
+        font-size: 18px;
+    }
     .card{
         width: 375px;
     }
- 
+    .card2, .card3, .smallcards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .link1, .link2, .link3, .link4, .link5, .link6{
+        width: 240px;
+    }
+   
 
 }
 @media only screen  and (min-width: 840px) and (max-width:900px){
