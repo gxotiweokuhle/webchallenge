@@ -191,7 +191,8 @@ h5{
 }
 .bigsign{
     transform: translateY(-50%);
-    font-size: 45px;
+    font-size: 50px;
+    font-weight: bolder;
     background: none;
     border: none;
     cursor: pointer;
@@ -290,7 +291,105 @@ h5{
     padding-left: 4px;
 }
 
-@media only screen  and (min-width: 200px) and (max-width:300px){
+@media only screen  and (min-width: 200px) and (max-width:299px){
+    .topnav{
+        display: flex;
+       
+    }
+    .menu{
+        margin-right: 50px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .slider-container{
+    
+        max-width: 100%;
+        margin-top: -72%;
+      
+    }
+    .blue{
+       
+        margin-top: -15%;
+        padding-right: 3px;
+    }
+    .black{
+        display: none;
+        
+        
+    }
+    .line1{
+        text-align: center;
+        margin-left: 3px;
+        padding-top: 15px;
+        font-size: 8px;
+    }
+
+    .arrow{
+        width: 39px;
+        top: 68%;
+    }
+    .dots-container{
+        margin-left: 66%;
+        bottom: 15px;
+        left: 4%;
+    }
+    .dot{
+        width: 18px;
+    }
+    .info{
+        display: flex;
+        flex-direction:column;
+        margin-bottom: 2px;
+    }
+    .text{
+        font-size: 16px;
+        padding-right: 35px;
+        padding-left: 9px;
+    }
+    .img-container img{
+        margin-top: 40px;
+        width: 190px;
+        margin-right: -5px;
+        
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .card1{
+        padding-left: 14px;
+    }
+        
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 15%;
+}
+.name{
+    font-size: 12px;
+    
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 290px;
+    
+}
+}
+@media only screen  and (min-width: 300px) and (max-width:304px){
     .topnav{
         display: flex;
        
@@ -359,10 +458,38 @@ h5{
     .card1{
         padding-left: 14px;
     }
-  
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bolder;
+    
+    margin-right: 8%;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 291px;
+    
 }
 
-@media only screen  and (min-width: 300px) and (max-width:353px){
+  
+}
+@media only screen  and (min-width: 305px) and (max-width:353px){
     .topnav{
         display: flex;
        
@@ -414,23 +541,51 @@ h5{
         margin-bottom: 2px;
     }
     .text{
-        font-size: 14px;
+        font-size: 17px;
         padding-right: 35px;
         padding-left: 9px;
     }
     .img-container img{
         margin-top: 40px;
-        width: 190px;
+        width: 200px;
         
     }
     .cards{
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        align-items: center;
+        padding: 40px;
     }
     .card1{
         padding-left: 14px;
     }
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 291px;
+    
+}
   
 }
 
@@ -485,7 +640,7 @@ h5{
         margin-bottom: 2px;
     }
     .text{
-        font-size: 14px;
+        font-size: 18px;
         padding-right: 35px;
         padding-left: 9px;
     }
@@ -496,11 +651,39 @@ h5{
     .cards{
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 20px;
     }
     .card1{
         padding-left: 14px;
     }
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 300px;
+    
+}
   
 }
 @media only screen  and (min-width: 361px) and (max-width:384px){
@@ -554,25 +737,51 @@ h5{
         margin-bottom: 2px;
     }
     .text{
-        font-size: 14px;
+        font-size: 18px;
         padding-right: 35px;
         padding-left: 9px;
     }
     .img-container img{
-        width: 200px;
+        width: 250px;
        margin-top: 40px;
     }
     .cards{
         display: flex;
         flex-direction: column;
-        
+        align-items: center;
         padding: 20px;
     }
    
     .card{
         width: 375px;
     }
- 
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 291px;
+    
+}
 
 }
 @media only screen  and (min-width: 385px) and (max-width:420px){
@@ -626,23 +835,50 @@ h5{
         margin-bottom: 2px;
     }
     .text{
-        font-size: 14px;
+        font-size: 18px;
         padding-right: 35px;
         padding-left: 9px;
     }
     .img-container img{
-        width: 200px;
+        width: 250px;
         margin-top: 40px;
     }
     .cards{
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 20px;
     }
     .card1{
         padding-left: 14px;
     }
-  
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 291px;
+    
+}
 }
 @media only screen  and (min-width: 421px) and (max-width:436px){
     .topnav{
@@ -695,7 +931,7 @@ h5{
         margin-bottom: 2px;
     }
     .text{
-        font-size: 16px;
+        font-size: 18px;
         padding-right: 35px;
         padding-left: 9px;
     }
@@ -706,11 +942,39 @@ h5{
     .cards{
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 20px;
     }
     .card1{
         padding-left: 14px;
     }
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 291px;
+    
+}
     
 }
 @media only screen  and (min-width: 437px) and (max-width:460px){
@@ -763,7 +1027,7 @@ h5{
         margin-bottom: 2px;
     }
     .text{
-        font-size: 15px;
+        font-size: 18px;
         padding-right: 35px;
         padding-left: 9px;
     }
@@ -782,10 +1046,36 @@ h5{
     .card{
         width: 375px;
     }
- 
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 20px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 291px;
+    
+}
 
 }
-@media only screen  and (min-width: 461px) and (max-width:500px){
+@media only screen  and (min-width: 461px) and (max-width:545px){
     .topnav{
         display: flex;
        
@@ -815,7 +1105,7 @@ h5{
         text-align: center;
         margin-left: 3px;
         padding-top: 15px;
-        font-size: 8px;
+        font-size: 9px;
     }
 
     .arrow{
@@ -836,7 +1126,7 @@ h5{
         margin-bottom: 20px;
     }
     .text{
-        font-size: 16px;
+        font-size: 18px;
         padding-right: 35px;
         padding-left: 9px;
     }
@@ -849,16 +1139,44 @@ h5{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        /* padding: 10px; */
+        
     }
    
     .card{
         width: 375px;
     }
- 
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 20px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 291px;
+    
+}
 
 }
-@media only screen  and (min-width: 500px) and (max-width:580px){
+
+@media only screen  and (min-width: 545px) and (max-width:564px){
     .topnav{
         display: flex;
        
@@ -888,7 +1206,7 @@ h5{
         text-align: center;
         margin-left: 3px;
         padding-top: 15px;
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .arrow{
@@ -909,7 +1227,7 @@ h5{
         margin-bottom: 2px;
     }
     .text{
-        font-size: 16px;
+        font-size: 19px;
         padding-right: 35px;
         padding-left: 9px;
     }
@@ -919,7 +1237,7 @@ h5{
     }
     .cards{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 20px;
@@ -929,7 +1247,137 @@ h5{
         width: 375px;
     }
  
+    .name{
+        font-size: 12px;
+        margin-left: 60px;
+        padding-left: 5px;
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 22%;
+    padding-right: 7px;
+}
+.heading{
+    font-size: 15px;
+    padding-right: 15px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 291px;
+    
+}
+}
+@media only screen  and (min-width: 564px) and (max-width:580px){
+    .topnav{
+        display: flex;
+       
+    }
+    .menu{
+        margin-right: 50px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .slider-container{
+       
+        max-width: 100%;
+        margin-top: -43%;
+      
+    }
+    .blue{
+       
+        margin-top: 5%;
+        padding-right: 3px;
+    }
+    .black{
+        
+       display: none;
+    }
+    .line1{
+        text-align: center;
+        margin-left: 3px;
+        padding-top: 15px;
+        font-size: 10px;
+    }
 
+    .arrow{
+        width: 39px;
+        top: 62%;
+    }
+    .dots-container{
+        margin-left: 69%;
+        bottom: 15px;
+        left: 1%;
+    }
+    .dot{
+        width: 18px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2px;
+    }
+    .text{
+        font-size: 19px;
+        padding-right: 35px;
+        padding-left: 9px;
+    }
+    .img-container img{
+        width: 260px;
+        margin-top: 40px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+   
+    .card{
+        width: 375px;
+    }
+ 
+    .name{
+        font-size: 12px;
+        margin-left: 60px;
+        padding-left: 2px;
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 22%;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 291px;
+    
+}
 }
 @media only screen  and (min-width: 581px) and (max-width:620px){
     .topnav{
@@ -982,7 +1430,7 @@ h5{
         margin-bottom: 2px;
     }
     .text{
-        font-size: 16px;
+        font-size: 20px;
         padding-right: 35px;
         padding-left: 9px;
     }
@@ -992,7 +1440,7 @@ h5{
     }
     .cards{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 20px;
@@ -1002,7 +1450,34 @@ h5{
         width: 375px;
     }
  
-
+    .name{
+        font-size: 12px;
+        margin-left: 60px;
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 22%;
+    padding-right: 2px;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 300px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 291px;
+    
+}
 }
 @media only screen  and (min-width: 621px) and (max-width:671px){
     .topnav{
@@ -1065,14 +1540,21 @@ h5{
     }
     .cards{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 20px;
+        gap: 10;
     }
     .name{
         font-size: 12px;
+        margin-left: 30px;
         
+    }
+    .sign{
+        font-size: 13px;
+        font-weight: bold;
+        margin-right: 15%;
     }
     .heading{
         font-size: 18px;
@@ -1080,7 +1562,16 @@ h5{
     .card{
         width: 375px;
     }
- 
+    .card2, .card3, .smallcards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .link1, .link2, .link3, .link4, .link5, .link6{
+        width: 240px;
+    }
    
 }
 @media only screen  and (min-width: 671px) and (max-width:700px){
@@ -1134,7 +1625,7 @@ h5{
         margin-bottom: 6px;
     }
     .text{
-        font-size: 17px;
+        font-size: 19px;
         padding-right: 35px;
         padding-left: 9px;
     }
@@ -1144,21 +1635,35 @@ h5{
     }
     .cards{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 20px;
     }
-   
+    .sign{
+        font-size: 13px;
+        margin-right: 15%;
+    }
     .card{
         width: 400px;
     }
     .name{
-        font-size: 12px;
+        font-size: 13px;
+        margin-left: 30px;
         
     }
     .heading{
         font-size: 18px;
+    }
+    .card2, .card3, .smallcards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .link1, .link2, .link3, .link4, .link5, .link6{
+        width: 240px;
     }
 
 }
