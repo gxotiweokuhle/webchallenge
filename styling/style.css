@@ -421,7 +421,7 @@ h5{
     }
     .slider-container{
     
-        max-width: 100%;
+        max-width: 86%;
         margin-top: -72%;
       
     }
@@ -431,7 +431,12 @@ h5{
         padding-right: 3px;
     }
     .black{
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: -15%;
+        left: 9px;
+        width: 20px;
+        height: 40px;
         
         
     }
@@ -443,8 +448,8 @@ h5{
     }
 
     .arrow{
-        width: 39px;
-        top: 68%;
+        width: 35px;
+        top: 72%;
     }
     .dots-container{
         margin-left: 66%;
@@ -531,7 +536,7 @@ h5{
     }
     .slider-container{
     
-        max-width: 100%;
+        max-width: 86%;
         margin-top: -72%;
       
     }
@@ -541,8 +546,12 @@ h5{
         padding-right: 3px;
     }
     .black{
-        display: none;
-        
+        position: absolute;
+        z-index: 1;
+        margin-top: -15%;
+        left: 9px;
+        width: 20px;
+        height: 40px;
         
     }
     .line1{
@@ -553,8 +562,8 @@ h5{
     }
 
     .arrow{
-        width: 39px;
-        top: 68%;
+        width: 35px;
+        top: 72%;
     }
     .dots-container{
         margin-left: 66%;
@@ -641,18 +650,23 @@ h5{
     }
     .slider-container{
     
-        max-width: 100%;
+        max-width: 86%;
         margin-top: -60%;
       
     }
     .blue{
        
-        margin-top: 4%;
+        margin-top: -2%;
         padding-right: 3px;
     }
     .black{
         
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: -2%;
+        left: 10px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -681,7 +695,7 @@ h5{
     .text{
         font-size: 18px;
         padding-right: 35px;
-        padding-left: 14px;
+        padding-left: 1px;
     }
     .img-container img{
         width: 250px;
@@ -748,18 +762,23 @@ h5{
     }
     .slider-container{
        
-        max-width: 100%;
+        max-width: 86%;
         margin-top: -59%;
       
     }
     .blue{
        
-        margin-top: 5%;
+        margin-top: -2%;
         padding-right: 3px;
     }
     .black{
         
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: -2%;
+        left: 10px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -857,7 +876,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 100%;
+        max-width: 86%;
         margin-top: -60%;
       
     }
@@ -868,7 +887,12 @@ h5{
     }
     .black{
         
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: -3%;
+        left: 11px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -878,8 +902,8 @@ h5{
     }
 
     .arrow{
-        width: 39px;
-        top: 68%;
+        width: 35px;
+        top: 75%;
     }
     .dots-container{
         margin-left: 66%;
@@ -897,7 +921,7 @@ h5{
     .text{
         font-size: 18px;
         padding-right: 35px;
-        padding-left: 35px;
+        padding-left: 5px;
     }
     .img-container img{
         width: 250px;
@@ -964,7 +988,7 @@ h5{
     }
     .slider-container{
   
-        max-width: 100%;
+        max-width: 86%;
         margin-top: -55%;
       
     }
@@ -975,7 +999,12 @@ h5{
     }
     .black{
         
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: -2%;
+        left: 12px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -986,7 +1015,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 68%;
+        top: 72%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1004,7 +1033,7 @@ h5{
     .text{
         font-size: 16px;
         padding-right: 35px;
-        padding-left: 48px;
+        padding-left: 4px;
     }
     .img-container img{
         width: 250px;
@@ -1072,7 +1101,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 100%;
+        max-width: 86%;
         margin-top: -54%;
       
     }
@@ -1082,7 +1111,12 @@ h5{
         padding-right: 3px;
     }
     .black{
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: -3%;
+        left: 12px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -1093,7 +1127,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 68%;
+        top: 70%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1111,7 +1145,7 @@ h5{
     .text{
         font-size: 16px;
         padding-right: 35px;
-        padding-left: 15%;
+        padding-left: 1px;
     }
     .img-container img{
         width: 250px;
@@ -1179,7 +1213,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 100%;
+        max-width: 86%;
         margin-top: -46%;
       
     }
@@ -1190,7 +1224,12 @@ h5{
     }
     .black{
         
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 5%;
+        left: 14px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -1200,8 +1239,8 @@ h5{
     }
 
     .arrow{
-        width: 39px;
-        top: 68%;
+        width: 35px;
+        top: 72%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1220,7 +1259,7 @@ h5{
     .text{
         font-size: 17px;
         padding-right: 39px;
-        padding-left: 15%;
+        padding-left: 1%;
     }
     .img-container img{
         width: 280px;
@@ -1291,7 +1330,7 @@ h5{
     }
     .slider-container{
        
-        max-width: 100%;
+        max-width: 86%;
         margin-top: -43%;
       
     }
@@ -1302,7 +1341,12 @@ h5{
     }
     .black{
         
-       display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 5%;
+        left: 15px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -1313,7 +1357,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 62%;
+        top: 69%;
     }
     .dots-container{
         margin-left: 69%;
@@ -1331,7 +1375,7 @@ h5{
     .text{
         font-size: 17px;
         padding-right: 35px;
-        padding-left: 59px;
+        padding-left: 1px;
     }
     .img-container img{
         width: 300px;
@@ -1377,7 +1421,7 @@ h5{
 }
 
 .card{
-    width: 380px;
+    width: 390px;
 }
 .card2, .card3, .smallcards{
     display: flex;
@@ -1404,7 +1448,7 @@ h5{
     }
     .slider-container{
        
-        max-width: 100%;
+        max-width: 92%;
         margin-top: -43%;
       
     }
@@ -1415,7 +1459,12 @@ h5{
     }
     .black{
         
-       display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 5%;
+        left: 34px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -1426,7 +1475,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 62%;
+        top: 67%;
     }
     .dots-container{
         margin-left: 69%;
@@ -1444,7 +1493,7 @@ h5{
     .text{
         font-size: 17px;
         padding-right: 35px;
-        padding-left: 9px;
+        padding-left: 0px;
     }
     .img-container img{
         width: 300px;
@@ -1515,7 +1564,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 100%;
+        max-width: 91%;
         margin-top: -40%;
         
       
@@ -1526,7 +1575,12 @@ h5{
         padding-right: 3px;
     }
     .black{
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 5%;
+        left: 31px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -1537,7 +1591,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 60%;
+        top: 64%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1555,7 +1609,7 @@ h5{
     .text{
         font-size: 18px;
         padding-right: 35px;
-        padding-left: 9px;
+        padding-left: 0px;
     }
     .img-container img{
         width: 300px;
@@ -1626,7 +1680,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 100%;
+        max-width: 92%;
         margin-top: -37%;
       
     }
@@ -1637,7 +1691,12 @@ h5{
     }
     .black{
         
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 6%;
+        left: 36px;
+        width: 22px;
+        height: 50px;
     }
     .line1{
         text-align: center;
@@ -1648,7 +1707,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 58%;
+        top: 61%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1666,7 +1725,7 @@ h5{
     .text{
         font-size: 18px;
         padding-right: 35px;
-        padding-left: 9px;
+        padding-left: 0px;
     }
     .img-container img{
         width: 300px;
@@ -1730,7 +1789,7 @@ h5{
     }
     .slider-container{
        
-        max-width: 100%;
+        max-width: 91%;
         margin-top: -34%;
       
     }
@@ -1741,7 +1800,12 @@ h5{
     }
     .black{
         
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 6%;
+        left: 37px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -1752,7 +1816,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 54%;
+        top: 58%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1769,9 +1833,9 @@ h5{
     }
     .text{
         margin-left: 10px;
-        font-size: 18px;
+        font-size: 17px;
         padding-right: 35px;
-        padding-left: 9px;
+        padding-left: 24px;
     }
     .img-container img{
         margin-top: 10px;
@@ -1833,7 +1897,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 100%;
+        max-width: 92%;
         margin-top: -33%;
        
     }
@@ -1844,7 +1908,12 @@ h5{
     }
     .black{
         
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 5%;
+        left: 42px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -1855,7 +1924,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 54%;
+        top: 56%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1873,9 +1942,9 @@ h5{
         /* margin-bottom: 20px; */
     }
     .text{
-        font-size: 18px;
+        font-size: 17px;
         padding-right: 35px;
-        padding-left: 9px;
+        padding-left: 19px;
         margin-left: 9px;
     }
     .img-container img{
@@ -1942,7 +2011,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 100%;
+        max-width: 92%;
         margin-top: -30%;
        
     }
@@ -1953,7 +2022,12 @@ h5{
     }
     .black{
         
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 10%;
+        left: 44px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -1964,7 +2038,7 @@ h5{
 
     .arrow{
         width: 35px;
-        top: 55%;
+        top: 58%;
     }
     .dots-container{
         margin-left: 72%;
@@ -1982,9 +2056,9 @@ h5{
        margin-top: 10px;
     }
     .text{
-        font-size: 18px;
+        font-size: 16px;
         padding-right: 35px;
-        padding-left: 9px;
+        padding-left: 19px;
         margin-left: 9px;
     }
     .img-container img{
@@ -2050,7 +2124,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 100%;
+        max-width: 91%;
         margin-top: -30%;
        
     }
@@ -2060,7 +2134,12 @@ h5{
         padding-right: 3px;
     }
     .black{
-       display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 9%;
+        left: 44px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -2071,7 +2150,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 54%;
+        top: 58%;
     }
     .dots-container{
         margin-left: 69%;
@@ -2087,9 +2166,9 @@ h5{
         margin-bottom: 20px;
     }
     .text{
-        font-size: 19px;
+        font-size: 17px;
         padding-right: 30px;
-        padding-left: 5px;
+        padding-left: 23px;
         margin-left: 9px;
     }
     .img-container img{
@@ -2152,7 +2231,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 100%;
+        max-width: 93%;
         margin-top: -28%;
        
     }
@@ -2162,7 +2241,12 @@ h5{
         padding-right: 3px;
     }
     .black{
-       display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 9%;
+        left: 55px;
+        width: 29px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -2173,7 +2257,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 54%;
+        top: 55%;
     }
     .dots-container{
         margin-left: 69%;
@@ -2191,7 +2275,7 @@ h5{
     .text{
         font-size: 19px;
         padding-right: 30px;
-        padding-left: 5px;
+        padding-left: 18px;
         margin-left: 12px;
     }
     .img-container img{
@@ -2208,7 +2292,7 @@ h5{
     }
     .name{
         font-size: 12px;
-        
+        padding-left: 3px;
     }
     .sign{
         font-size: 17px;
@@ -2254,7 +2338,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 97%;
+        max-width: 96%;
         margin-top: -27%;
        
     }
@@ -2264,7 +2348,12 @@ h5{
         padding-right: 3px;
     }
     .black{
-       display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 12%;
+        left: 71px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
@@ -2275,7 +2364,7 @@ h5{
 
     .arrow{
         width: 35px;
-        top: 55%;
+        top: 56%;
     }
     .dots-container{
         margin-left: 66%;
@@ -2369,7 +2458,12 @@ h5{
         padding-right: 3px;
     }
     .black{
-       display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 13%;
+        left: 73px;
+        width: 20px;
+        height: 40px;
     }
     .line1{
         text-align: center;
