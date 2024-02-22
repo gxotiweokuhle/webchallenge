@@ -152,14 +152,14 @@ main {
     align-items: center;
     gap: 10px;
     margin-top: 15px;
-    
+    overflow: hidden;
    
 }
 
 .text{
    
     display: flex;
-    margin-left: 2%;
+    margin-left: 11%;
     font-size: 17px;
    
  
