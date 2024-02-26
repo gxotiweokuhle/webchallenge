@@ -13,8 +13,9 @@ main {
 
 .logo img{
     max-width: 120px;
-    margin-right: 200px;
+    margin-right: 800px;
     margin-bottom: 30px;
+   
     
 }
 .top{
@@ -22,7 +23,7 @@ main {
 }
 .menu{
     width: 40px;
-
+    margin-right: 9px;
     
 }
 .topnav{
@@ -48,11 +49,11 @@ main {
     left: 0;
     background-color: #244ac2;
     color: white;
-    /* padding: 19px; */
     z-index: 2;
     width: 39%; 
     height: 39px;
     margin-top: 180px;
+    padding-top: 10px;
 }
 
 .black{
@@ -421,7 +422,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 250px;
     }
     .logo{
         margin-left: 20px;
@@ -429,7 +430,7 @@ h5{
     .slider-container{
     
         max-width: 84%;
-        margin-top: -72%;
+        margin-top: -70%;
       
     }
     .blue{
@@ -450,7 +451,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 7.5px;
     }
 
@@ -536,7 +537,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
         margin-left: 20px;
@@ -564,7 +565,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 7.5px;
     }
 
@@ -650,7 +651,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
         margin-left: 20px;
@@ -678,7 +679,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 8px;
     }
 
@@ -762,7 +763,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
         margin-left: 20px;
@@ -790,7 +791,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 8.2px;
     }
 
@@ -876,7 +877,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
         margin-left: 20px;
@@ -904,7 +905,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 9px;
     }
 
@@ -988,7 +989,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
         margin-left: 20px;
@@ -1016,7 +1017,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -1101,7 +1102,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
         margin-left: 20px;
@@ -1129,7 +1130,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -1212,7 +1213,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
         margin-left: 20px;
@@ -1240,7 +1241,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -1328,7 +1329,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 250px;
     }
     .logo{
         margin-left: 20px;
@@ -1356,7 +1357,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -1442,10 +1443,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 290px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .slider-container{
        
@@ -1470,7 +1471,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -1559,10 +1560,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .slider-container{
        
@@ -1587,7 +1588,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -1671,10 +1672,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 32px;
     }
     .slider-container{
         
@@ -1699,7 +1700,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -1789,10 +1790,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 39px;
     }
     .slider-container{
         
@@ -1817,7 +1818,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -1901,10 +1902,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 48px;
     }
     .slider-container{
         
@@ -1929,7 +1930,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -2010,10 +2011,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 49px;
     }
     .slider-container{
        
@@ -2038,7 +2039,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -2120,10 +2121,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 52px;
     }
     .slider-container{
        
@@ -2148,7 +2149,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -2230,10 +2231,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 52px;
     }
     .slider-container{
        
@@ -2258,7 +2259,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 10px;
     }
 
@@ -2340,10 +2341,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 300px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 57px;
     }
     .slider-container{
         
@@ -2368,7 +2369,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 12px;
     }
 
@@ -2454,10 +2455,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 100px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 8px;
     }
     .slider-container{
         
@@ -2482,7 +2483,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 12px;
     }
 
@@ -2565,10 +2566,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 100px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 14px;
     }
     .slider-container{
         
@@ -2592,7 +2593,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 12px;
     }
 
@@ -2672,7 +2673,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 100px;
     }
     .logo{
         margin-left: 20px;
@@ -2699,7 +2700,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 12px;
     }
 
@@ -2779,10 +2780,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 90px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 9px;
     }
     .slider-container{
         
@@ -2806,7 +2807,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 12px;
     }
 
@@ -2892,7 +2893,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 80px;
     }
     .logo{
         margin-left: 20px;
@@ -2919,7 +2920,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 12px;
     }
 
@@ -2998,7 +2999,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 100px;
     }
     .logo{
         margin-left: 20px;
@@ -3025,7 +3026,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 12px;
     }
 
@@ -3103,7 +3104,7 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 80px;
     }
     .logo{
         margin-left: 20px;
@@ -3130,7 +3131,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 12px;
     }
 
@@ -3209,10 +3210,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 80px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 8px;
     }
     .slider-container{
         
@@ -3236,7 +3237,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 12px;
     }
 
@@ -3315,10 +3316,10 @@ h5{
        
     }
     .menu{
-        margin-right: 50px;
+        margin-right: 80px;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 8px;
     }
     .slider-container{
         
@@ -3342,7 +3343,7 @@ h5{
     .line1{
         text-align: center;
         margin-left: 3px;
-        padding-top: 15px;
+        padding-top: 5px;
         font-size: 12px;
     }
 
@@ -3396,6 +3397,114 @@ h5{
     }
     .card{
         width: 340px;
+    }
+    .card2, .card3, .smallcards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .link1, .link2, .link3, .link4, .link5, .link6{
+        width: 340px;
+    }
+    .link2{
+        margin-top: 4px;
+    }
+    .link4{
+        margin-top: 4px;
+    }
+    .link6{
+        margin-top: 4px;
+    }
+}
+@media only screen  and (min-width: 1200px) and (max-width:1246px){
+    .topnav{
+        display: flex;
+       
+    }
+    .menu{
+        margin-right: 50px;
+    }
+    .logo{
+        margin-left: 3px;
+    }
+    .slider-container{
+        
+        max-width: 92%;
+        margin-top: -19%;
+       
+    }
+    .blue{
+       
+        margin-top: 12%;
+        padding-right: 3px;
+    }
+    .black{
+        position: absolute;
+        z-index: 1;
+        margin-top: 12%;
+        left: 72px;
+        width: 30px;
+        height: 50px;
+    }
+    .line1{
+        text-align: center;
+        margin-left: 3px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+
+    .arrow{
+        width: 39px;
+        top: 49%;
+    }
+    .dots-container{
+        margin-left: 66%;
+        bottom: 55px;
+        left: 1%;
+    }
+    .dot{
+        width: 18px;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+       
+    }
+    .text{
+        font-size: 18px;
+        padding-right: 35px;
+        padding-left: 49px;
+        margin-left: 9px;
+    }
+    .img-container img{
+        width: 290px;
+       
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: -9px;
+      
+    }
+    .name{
+        font-size: 12px;
+        padding-left: 7px;
+        
+    }
+    .sign{
+        font-size: 13px;
+        padding-right: 3%;
+    }
+    .heading{
+        font-size: 18px;
+    }
+    .card{
+        width: 360px;
     }
     .card2, .card3, .smallcards{
         display: flex;
