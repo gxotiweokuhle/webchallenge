@@ -2586,7 +2586,7 @@ h5{
         z-index: 1;
         margin-top: 9%;
         left: 44px;
-        width: 20px;
+        width: 50px;
         height: 40px;
     }
     .line1{
@@ -2679,7 +2679,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 90%;
+        max-width: 91%;
         margin-top: -28%;
        
     }
@@ -2692,9 +2692,9 @@ h5{
         position: absolute;
         z-index: 1;
         margin-top: 9%;
-        left: 55px;
-        width: 29px;
-        height: 40px;
+        left: 49px;
+        width: 40px;
+        height: 45px;
     }
     .line1{
         text-align: center;
@@ -2704,7 +2704,7 @@ h5{
     }
 
     .arrow{
-        width: 39px;
+        width: 35px;
         top: 55%;
     }
     .dots-container{
@@ -2724,10 +2724,10 @@ h5{
         font-size: 19px;
         padding-right: 30px;
         padding-left: 18px;
-        margin-left: 12px;
+        margin-left: 32px;
     }
     .img-container img{
-        width: 190px;
+        width: 250px;
         margin-right: 20px;
     }
     .cards{
@@ -2749,7 +2749,7 @@ h5{
         font-size: 18px;
     }
     .card{
-        width: 300px;
+        width: 249px;
     }
     .card2, .card3, .smallcards{
         display: flex;
@@ -2760,7 +2760,7 @@ h5{
     }
     
     .link1, .link2, .link3, .link4, .link5, .link6{
-        width: 260px;
+        width: 240px;
     }
     .link2{
         margin-top: 4px;
@@ -2786,7 +2786,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 96%;
+        max-width: 95%;
         margin-top: -27%;
        
     }
@@ -2799,9 +2799,9 @@ h5{
         position: absolute;
         z-index: 1;
         margin-top: 12%;
-        left: 71px;
-        width: 20px;
-        height: 40px;
+        left: 68px;
+        width: 50px;
+        height: 50px;
     }
     .line1{
         text-align: center;
@@ -2826,15 +2826,18 @@ h5{
         display: flex;
         flex-direction: row;
         margin-bottom: 20px;
+      
     }
     .text{
-        font-size: 18px;
-        padding-right: 35px;
-        padding-left: 9px;
-        margin-left: 13px;
+      
+        font-size: 19px;
+        padding-right: 30px;
+        padding-left: 8px;
+        margin-left: 32px;
+       
     }
     .img-container img{
-        width: 200px;
+        width: 240px;
     }
     .cards{
         display: flex;
@@ -2896,7 +2899,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 96%;
+        max-width: 92%;
         margin-top: -25%;
        
     }
@@ -2908,10 +2911,10 @@ h5{
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 13%;
-        left: 73px;
-        width: 20px;
-        height: 40px;
+        margin-top: 12%;
+        left: 55px;
+        width: 50px;
+        height: 50px;
     }
     .line1{
         text-align: center;
@@ -2922,7 +2925,7 @@ h5{
 
     .arrow{
         width: 35px;
-        top: 55%;
+        top: 56%;
     }
     .dots-container{
         margin-left: 66%;
@@ -2940,11 +2943,11 @@ h5{
     .text{
         font-size: 18px;
         padding-right: 35px;
-        padding-left: 9px;
+        padding-left: 19px;
         margin-left: 22px;
     }
     .img-container img{
-        width: 180px;
+        width: 240px;
     }
     .cards{
         display: flex;
@@ -3002,7 +3005,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 96%;
+        max-width: 94%;
         margin-top: -24%;
        
     }
@@ -3012,8 +3015,12 @@ h5{
         padding-right: 3px;
     }
     .black{
-        
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 14%;
+        left: 70px;
+        width: 30px;
+        height: 50px;
     }
     .line1{
         text-align: center;
@@ -3024,7 +3031,7 @@ h5{
 
     .arrow{
         width: 39px;
-        top: 54%;
+        top: 56%;
     }
     .dots-container{
         margin-left: 66%;
@@ -3042,11 +3049,11 @@ h5{
     .text{
         font-size: 19px;
         padding-right: 35px;
-        padding-left: 18px;
+        padding-left: 28px;
         margin-left: 12px;
     }
     .img-container img{
-        width: 190px;
+        width: 250px;
     }
     .cards{
         display: flex;
@@ -3054,7 +3061,7 @@ h5{
         justify-content: center;
         align-items: center;
         /* padding: 40px; */
-        
+        margin-top: -9px;
     }
    
     .card{
@@ -3090,7 +3097,7 @@ h5{
         margin-top: 4px;
     }
 }
-@media only screen  and (min-width: 1057px) and (max-width:1200px){
+@media only screen  and (min-width: 1057px) and (max-width:1085px){
     .topnav{
         display: flex;
        
@@ -3103,7 +3110,7 @@ h5{
     }
     .slider-container{
         
-        max-width: 97%;
+        max-width: 94%;
         margin-top: -21%;
        
     }
@@ -3113,7 +3120,12 @@ h5{
         padding-right: 3px;
     }
     .black{
-       display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 12%;
+        left: 70px;
+        width: 30px;
+        height: 50px;
     }
     .line1{
         text-align: center;
@@ -3124,7 +3136,7 @@ h5{
 
     .arrow{
         width: 35px;
-        top: 55%;
+        top: 50%;
     }
     .dots-container{
         margin-left: 66%;
@@ -3142,33 +3154,34 @@ h5{
     .text{
         font-size: 18px;
         padding-right: 35px;
-        padding-left: 19px;
+        padding-left: 29px;
         margin-left: 9px;
     }
     .img-container img{
-        width: 170px;
+        width: 250px;
     }
     .cards{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        
+        margin-top: -9px;
       
     }
     .name{
         font-size: 12px;
-        padding-left: 8px;
+        padding-left: 7px;
         
     }
     .sign{
         font-size: 13px;
+        padding-right: 3%;
     }
     .heading{
         font-size: 18px;
     }
     .card{
-        width: 360px;
+        width: 320px;
     }
     .card2, .card3, .smallcards{
         display: flex;
@@ -3178,7 +3191,7 @@ h5{
         gap: 0;
     }
     .link1, .link2, .link3, .link4, .link5, .link6{
-        width: 360px;
+        width: 320px;
     }
     .link2{
         margin-top: 4px;
@@ -3190,7 +3203,7 @@ h5{
         margin-top: 4px;
     }
 }
-@media only screen  and (min-width: 1201px) and (max-width:1300px){
+@media only screen  and (min-width: 1085px) and (max-width:1110px){
     .topnav{
         display: flex;
        
@@ -3203,23 +3216,28 @@ h5{
     }
     .slider-container{
         
-        max-width: 99%;
-        margin-top: -19%;
+        max-width: 94%;
+        margin-top: -21%;
        
     }
     .blue{
        
-        margin-top: 15%;
+        margin-top: 12%;
         padding-right: 3px;
     }
     .black{
-        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: 12%;
+        left: 70px;
+        width: 40px;
+        height: 50px;
     }
     .line1{
         text-align: center;
         margin-left: 3px;
         padding-top: 15px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .arrow{
@@ -3227,12 +3245,12 @@ h5{
         top: 50%;
     }
     .dots-container{
-        margin-top: -50px;
-        margin-left: 80%;
+        margin-left: 66%;
+        bottom: 55px;
         left: 1%;
     }
     .dot{
-        width: 20px;
+        width: 18px;
     }
     .info{
         display: flex;
@@ -3242,19 +3260,34 @@ h5{
     .text{
         font-size: 19px;
         padding-right: 35px;
-        padding-left: 9px;
+        padding-left: 29px;
         margin-left: 9px;
     }
     .img-container img{
-        width: 180px;
+        width: 250px;
     }
     .cards{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-       
+        margin-top: -9px;
       
+    }
+    .name{
+        font-size: 12px;
+        padding-left: 7px;
+        
+    }
+    .sign{
+        font-size: 13px;
+        padding-right: 3%;
+    }
+    .heading{
+        font-size: 18px;
+    }
+    .card{
+        width: 329px;
     }
     .card2, .card3, .smallcards{
         display: flex;
@@ -3264,21 +3297,7 @@ h5{
         gap: 0;
     }
     .link1, .link2, .link3, .link4, .link5, .link6{
-        width: 380px;
-    }
-    .card{
-        width: 380px;
-    }
- 
-    .name{
-        font-size: 12px;
-        padding-left: 8px;
-    }
-    .sign{
-        font-size: 13px;
-    }
-    .heading{
-        font-size: 18px;
+        width: 320px;
     }
     .link2{
         margin-top: 4px;
@@ -3289,5 +3308,112 @@ h5{
     .link6{
         margin-top: 4px;
     }
-    
+}
+@media only screen  and (min-width: 1110px) and (max-width:1201px){
+    .topnav{
+        display: flex;
+       
+    }
+    .menu{
+        margin-right: 50px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .slider-container{
+        
+        max-width: 92%;
+        margin-top: -21%;
+       
+    }
+    .blue{
+       
+        margin-top: 12%;
+        padding-right: 3px;
+    }
+    .black{
+        position: absolute;
+        z-index: 1;
+        margin-top: 12%;
+        left: 66px;
+        width: 30px;
+        height: 50px;
+    }
+    .line1{
+        text-align: center;
+        margin-left: 3px;
+        padding-top: 15px;
+        font-size: 12px;
+    }
+
+    .arrow{
+        width: 39px;
+        top: 51%;
+    }
+    .dots-container{
+        margin-left: 66%;
+        bottom: 55px;
+        left: 1%;
+    }
+    .dot{
+        width: 18px;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+       
+    }
+    .text{
+        font-size: 18px;
+        padding-right: 35px;
+        padding-left: 40px;
+        margin-left: 9px;
+    }
+    .img-container img{
+        width: 250px;
+       
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: -9px;
+      
+    }
+    .name{
+        font-size: 12px;
+        padding-left: 7px;
+        
+    }
+    .sign{
+        font-size: 13px;
+        padding-right: 3%;
+    }
+    .heading{
+        font-size: 18px;
+    }
+    .card{
+        width: 340px;
+    }
+    .card2, .card3, .smallcards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .link1, .link2, .link3, .link4, .link5, .link6{
+        width: 340px;
+    }
+    .link2{
+        margin-top: 4px;
+    }
+    .link4{
+        margin-top: 4px;
+    }
+    .link6{
+        margin-top: 4px;
+    }
 }
