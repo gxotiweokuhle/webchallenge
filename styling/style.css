@@ -151,11 +151,12 @@ main {
 
 .info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
-    margin-top: 15px;
+    gap: -12%;
+    margin-top: 10px;
     overflow: hidden;
+   
    
 }
 
@@ -163,16 +164,16 @@ main {
    
     font-weight: 400;
     margin-left: 9.5%;
-    font-size: 19px;
-    padding-left: 14px;
-   
+    font-size: 20px;
+    
  
 }
 .heading{
     font-weight: bold;
 }
 .img-container{
-   
+    
+    /* padding: 20px; */
     margin-bottom: -20px;
     margin-right: 10%;
 }
@@ -481,7 +482,7 @@ h5{
     }
     .img-container img{
         margin-top: 10px;
-        width: 190px;
+       padding: 35px;
         
     }
     .link2{
@@ -595,7 +596,7 @@ h5{
     }
     .img-container img{
         margin-top: 10px;
-        width: 250px;
+        padding: 35px;
         
     }
     .link2{
@@ -708,7 +709,7 @@ h5{
         padding-left: 1px;
     }
     .img-container img{
-        width: 250px;
+        padding: 30px;
        margin-top: 9px;
     }
     .link2{
@@ -821,7 +822,7 @@ h5{
        
     }
     .img-container img{
-        width: 250px;
+        padding: 15px;
        margin-top: 10px;
     }
     .link2{
@@ -934,7 +935,7 @@ h5{
         padding-left: -1px;
     }
     .img-container img{
-        width: 250px;
+        padding: 15px;
         margin-top: 20px;
     }
     .link2{
@@ -1046,7 +1047,7 @@ h5{
         padding-left: 4px;
     }
     .img-container img{
-        width: 250px;
+        padding: 15px;
         margin-top: 10px;
     }
     .link2{
@@ -1384,10 +1385,11 @@ h5{
     .text{
         font-size: 19px;
         padding-right: 19%;
+        padding-left: 9px;
        
     }
     .img-container img{
-        width: 280px;
+  
         margin-top:10px;
     }
     .cards{
@@ -1497,7 +1499,7 @@ h5{
     .text{
         font-size: 20px;
         padding-right: 19%;
-        padding-left: 3px;
+        padding-left: 9px;
         
     }
     .img-container img{
@@ -1614,7 +1616,7 @@ h5{
     .text{
         font-size: 19px;
         padding-right: 19%;
-        padding-left: 13px;
+        padding-left: 28px;
     }
     .img-container img{
         width: 300px;
@@ -1727,6 +1729,7 @@ h5{
         font-size: 19px;
         padding-inline: 15px;
         padding-right:19%;
+        padding-left: 30px;
         
     }
     .img-container img{
@@ -1845,7 +1848,7 @@ h5{
     .text{
         font-size: 20px;
         padding-right: 19%;
-        padding-left: 29px;
+        padding-left: 40px;
     }
     .img-container img{
         width: 280px;
@@ -1956,7 +1959,7 @@ h5{
     .text{
         font-size: 20px;
         padding-right: 19%;
-        padding-left: 42px;
+        padding-left: 49px;
     }
     .img-container img{
         width: 300px;
@@ -2066,7 +2069,7 @@ h5{
       
         font-size: 19px;
         padding-right: 19%;
-        padding-left: 50px;
+        padding-left: 59px;
     }
     .img-container img{
         margin-top: 10px;
@@ -2078,7 +2081,7 @@ h5{
         justify-content: center;
         align-items: center;
         padding: 20px;
-        margin-top: -15px;
+        margin-top: 14px;
     }
     .sign{
         font-size: 13px;
@@ -2176,7 +2179,7 @@ h5{
       
         font-size: 20px;
         padding-right: 19%;
-        padding-left: 50px;
+        padding-left: 57px;
     }
     .img-container img{
         margin-top: 10px;
@@ -2188,7 +2191,7 @@ h5{
         justify-content: center;
         align-items: center;
         padding: 20px;
-        margin-top: -15px;
+        margin-top: 15px;
     }
     .sign{
         font-size: 13px;
@@ -2286,7 +2289,7 @@ h5{
       
         font-size: 20px;
         padding-right: 20%;
-        padding-left: 50px;
+        padding-left: 57px;
     }
     .img-container img{
         margin-top: 10px;
@@ -2298,7 +2301,7 @@ h5{
         justify-content: center;
         align-items: center;
         padding: 20px;
-        margin-top: -15px;
+        margin-top: 15px;
     }
     .sign{
         font-size: 13px;
@@ -2396,7 +2399,7 @@ h5{
         font-size: 20px;
        
         padding-right: 22%;
-        padding-left: 20px;
+        padding-left: 50px;
        
         
     }
@@ -2410,7 +2413,7 @@ h5{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 25px;
     }
     .name{
         font-size: 12px;
@@ -2425,7 +2428,7 @@ h5{
        
     }
     .card{
-        max-width: 158px;
+        max-width: 160px;
       
     }
     .card2, .card3, .smallcards{
@@ -2437,7 +2440,7 @@ h5{
     }
     
     .link1, .link2, .link3, .link4, .link5, .link6{
-        width: 158px;
+        width: 160px;
     }
     .link2{
         margin-top: 4px;
@@ -2510,7 +2513,7 @@ h5{
     .text{
         font-size: 19px;
         padding-right: 19%;
-        padding-left: 3%;
+        padding-left: 5%;
       
     }
     .img-container img{
@@ -2523,7 +2526,7 @@ h5{
         justify-content: center;
         align-items: center;
         /* padding: 20px; */
-        margin-top: 10px;
+        margin-top: 25px;
     }
    
     
@@ -2619,12 +2622,12 @@ h5{
     }
     .text{
         font-size: 19px;
-        padding-right: 19%;
+        padding-right: 12%;
         padding-left: 8px;
         
     }
     .img-container img{
-        width: 400px;
+      margin-top: 12px;
         margin-right: 20px;
     }
     .cards{
@@ -2647,7 +2650,7 @@ h5{
         font-size: 18px;
     }
     .card{
-        width: 189px;
+        width: 200px;
     }
     .card2, .card3, .smallcards{
         display: flex;
@@ -2657,7 +2660,7 @@ h5{
         gap: 0;
     }
     .link1, .link2, .link3, .link4, .link5, .link6{
-        width: 189px;
+        width: 200px;
     }
     .link2{
         margin-top: 4px;
@@ -2726,13 +2729,14 @@ h5{
     }
     .text{
         font-size: 20px;
-        padding-right: 19%;
+        padding-right: 9%;
         padding-left: 7%;
         margin-left: 32px;
     }
     .img-container img{
-        width: 450px;
+       margin-top: 14px;
         margin-right: 20px;
+        width: 450px;
     }
     .cards{
         display: flex;
@@ -2740,7 +2744,7 @@ h5{
         justify-content: center;
         align-items: center;
         padding: 20px;
-        margin-top: -10px;
+        margin-top: 10px;
     }
     .name{
         font-size: 14px;
@@ -2835,20 +2839,21 @@ h5{
     .text{
       
         font-size: 22px;
-        padding-right: 19%;
+        padding-right: 9%;
         padding-left: -10px;
        
        
     }
     .img-container img{
         width: 450px;
+        margin-top: 10px;
     }
     .cards{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: -9px;
+        margin-top: 12px;
         
       
     }
@@ -2952,6 +2957,7 @@ h5{
     }
     .img-container img{
         width: 550px;
+        margin-top: 18px;
     }
     .cards{
         display: flex;
@@ -2959,7 +2965,7 @@ h5{
         justify-content: center;
         align-items: center;
         margin-left: 5px;
-        margin-top: 12px;
+        margin-top: 15px;
     }
     .name{
         font-size: 14px;
@@ -3163,6 +3169,7 @@ h5{
     }
     .img-container img{
         width: 550px;
+        margin-top: 15px;
     }
     .cards{
         display: flex;
@@ -3269,6 +3276,7 @@ h5{
     }
     .img-container img{
         width: 550px;
+        margin-top: 15px;
     }
     .cards{
         display: flex;
@@ -3376,7 +3384,7 @@ h5{
     }
     .img-container img{
         width: 550px;
-       
+       margin-top: 15px;
     }
     .cards{
         display: flex;
@@ -3557,7 +3565,7 @@ h5{
         position: absolute;
         z-index: 1;
         margin-top: 12%;
-        left: 72px;
+        left: 76px;
         width: 30px;
         height: 50px;
     }
@@ -3591,19 +3599,19 @@ h5{
     .text{
         font-size: 29px;
         padding-right: 2%;
-        padding-left: 49px;
+        /* padding-left: 49px; */
         margin-left: -2px;
     }
     .img-container img{
         width: 550px;
-       
+       margin-top: 10px;
     }
     .cards{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 12px;
+        margin-top: 15px;
       
     }
     .name{
@@ -3619,7 +3627,7 @@ h5{
         font-size: 19px;
     }
     .card{
-        width: 350px;
+        width: 370px;
     }
     .card2, .card3, .smallcards{
         display: flex;
@@ -3629,7 +3637,7 @@ h5{
         gap: 0;
     }
     .link1, .link2, .link3, .link4, .link5, .link6{
-        width: 350px;
+        width: 370px;
     }
     .link2{
         margin-top: 4px;
