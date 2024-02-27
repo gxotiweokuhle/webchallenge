@@ -161,9 +161,10 @@ main {
 
 .text{
    
-    display: flex;
-    margin-left: 11%;
-    font-size: 17px;
+    font-weight: 400;
+    margin-left: 9.5%;
+    font-size: 19px;
+    padding-left: 14px;
    
  
 }
@@ -171,8 +172,9 @@ main {
     font-weight: bold;
 }
 .img-container{
+   
     margin-bottom: -20px;
-    margin-right: 11%;
+    margin-right: 10%;
 }
 
 .cards{
