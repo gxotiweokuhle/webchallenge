@@ -20,6 +20,7 @@ main {
 }
 .top{
     overflow-x: hidden;
+   
 }
 .menu{
     width: 40px;
@@ -45,7 +46,7 @@ main {
 }
 .blue{
     position: absolute;
-    top: 180px;
+    top: 150px;
     left: 0;
     background-color: #244ac2;
     color: white;
@@ -58,7 +59,7 @@ main {
 
 .black{
     position: absolute;
-    top: 180px;
+    top: 150px;
     left: 0;
     z-index: 1;
     background-color: black;
@@ -76,8 +77,9 @@ main {
     max-width: 80%;
     margin: auto;
     margin-top: -15%;
-    margin-bottom: 2px;
-    height: 25%;
+  
+    /* margin-bottom: 20px; */
+   
    
 }
 
@@ -85,27 +87,30 @@ main {
     display: flex;
     overflow: hidden;
     position: relative;
-  
+    
 }
 
 .slide{
       flex: 0 0 100%;
       overflow: hidden;
+     
+      
 }
 
 .slide img {
     margin-top: 150px;
     width: 100%;
-    height: 80%;
-   
+    min-height: 70vh;
+  
 }
+
 
 .arrow{
     
     position: absolute;
     z-index: 20;
     background-image: url('https://visiofund.co.za/wp-content/themes/visio/images/slider-next.svg');
-    top: 50%;
+    top: 69%;
     right: 0;
     display: inline-block;
     background-size: contain;
@@ -122,7 +127,7 @@ main {
 .dots-container {
 
     position: absolute;
-    bottom: 120px;
+    bottom: 50px;
     left: 89%;
     transform: translateX(-50%);
     display: flex;
@@ -154,9 +159,9 @@ main {
     justify-content: space-evenly;
     align-items: center;
     gap: -12%;
-    margin-top: 10px;
+    margin-top: 14px;
     overflow: hidden;
-   
+  
    
 }
 
@@ -165,6 +170,7 @@ main {
     font-weight: 400;
     margin-left: 9.5%;
     font-size: 20px;
+    padding-right: 4%;
     
  
 }
@@ -350,9 +356,15 @@ h5{
         width: 39px;
         top: 68%;
     }
+    .slide img {
+        /* margin-top: 150px; */
+        width: 100%;
+        min-height: 22px;
+       
+    }
     .dots-container{
         margin-left: 66%;
-        bottom: 15px;
+        bottom: 300px;
         left: 4%;
     }
     .dot{
@@ -438,13 +450,13 @@ h5{
     }
     .blue{
        
-        margin-top: -15%;
+        margin-top: -3%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: -15%;
+        margin-top: -3%;
         left: 6px;
         width: 30px;
         height: 40px;
@@ -459,12 +471,18 @@ h5{
     }
 
     .arrow{
-        width: 33px;
-        top: 72%;
+        width: 30px;
+        top: 75%;
+    }
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 24vh;
+       
     }
     .dots-container{
         margin-left: 66%;
-        bottom: 15px;
+        bottom: 20px;
         left: 4%;
     }
     .dot{
@@ -534,7 +552,7 @@ h5{
 
   
 }
-@media only screen  and (min-width: 305px) and (max-width:353px){
+@media only screen  and (min-width: 305px) and (max-width:319px){
     .topnav{
         display: flex;
        
@@ -553,13 +571,13 @@ h5{
     }
     .blue{
        
-        margin-top: -15%;
+        margin-top: -7%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: -15%;
+        margin-top: -7%;
         left: 3px;
         width: 20px;
         height: 40px;
@@ -571,14 +589,19 @@ h5{
         padding-top: 5px;
         font-size: 7.5px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 25vh;
+       
+    }
     .arrow{
-        width: 33px;
+        width: 27px;
         top: 74%;
     }
     .dots-container{
         margin-left: 66%;
-        bottom: 15px;
+        bottom: 20px;
         left: 4%;
     }
     .dot{
@@ -647,7 +670,242 @@ h5{
 }
   
 }
-
+@media only screen  and (min-width: 319px) and (max-width:324px){
+    .topnav{
+        display: flex;
+       
+    }
+    .menu{
+        margin-right: 300px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .slider-container{
+    
+        max-width: 82%;
+        margin-top: -72%;
+      
+    }
+    .blue{
+       
+        margin-top: -8%;
+        padding-right: 3px;
+    }
+    .black{
+        position: absolute;
+        z-index: 1;
+        margin-top: -8%;
+        left: 3px;
+        width: 20px;
+        height: 40px;
+        
+    }
+    .line1{
+        text-align: center;
+        margin-left: 3px;
+        padding-top: 5px;
+        font-size: 7.5px;
+    }
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 25vh;
+       
+    }
+    .arrow{
+        width: 27px;
+        top: 74%;
+    }
+    .dots-container{
+        margin-left: 66%;
+        bottom: 20px;
+        left: 4%;
+    }
+    .dot{
+        width: 18px;
+    }
+    .info{
+        display: flex;
+        flex-direction:column;
+        margin-bottom: 2px;
+    }
+    .text{
+        font-size: 17px;
+        padding-right: 35px;
+        
+    }
+    .img-container img{
+        margin-top: 1px;
+        padding: 75px;
+        
+    }
+    .link2{
+        margin-top: 4px;
+    }
+    .link4{
+        margin-top: 4px;
+    }
+    .link6{
+        margin-top: 4px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        margin-top: -19px;
+    }
+    .card1{
+        padding-left: 14px;
+    }
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 250px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 250px;
+    
+}
+  
+}
+@media only screen  and (min-width: 324px) and (max-width:353px){
+    .topnav{
+        display: flex;
+       
+    }
+    .menu{
+        margin-right: 300px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .slider-container{
+    
+        max-width: 82%;
+        margin-top: -72%;
+      
+    }
+    .blue{
+       
+        margin-top: -8%;
+        padding-right: 3px;
+    }
+    .black{
+        position: absolute;
+        z-index: 1;
+        margin-top: -8%;
+        left: 3px;
+        width: 20px;
+        height: 40px;
+        
+    }
+    .line1{
+        text-align: center;
+        margin-left: 3px;
+        padding-top: 5px;
+        font-size: 8px;
+    }
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 28vh;
+       
+    }
+    .arrow{
+        width: 27px;
+        top: 74%;
+    }
+    .dots-container{
+        margin-left: 66%;
+        bottom: 20px;
+        left: 4%;
+    }
+    .dot{
+        width: 18px;
+    }
+    .info{
+        display: flex;
+        flex-direction:column;
+        margin-bottom: 2px;
+    }
+    .text{
+        font-size: 17px;
+        padding-right: 35px;
+        
+    }
+    .img-container img{
+        margin-top: 1px;
+        padding: 75px;
+        
+    }
+    .link2{
+        margin-top: 4px;
+    }
+    .link4{
+        margin-top: 4px;
+    }
+    .link6{
+        margin-top: 4px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        margin-top: -19px;
+    }
+    .card1{
+        padding-left: 14px;
+    }
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 250px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 250px;
+    
+}
+  
+}
 @media only screen  and (min-width: 353px) and (max-width:360px){
     .topnav{
         display: flex;
@@ -662,7 +920,7 @@ h5{
     .slider-container{
     
         max-width: 82%;
-        margin-top: -60%;
+        margin-top: -64%;
       
     }
     .blue{
@@ -683,16 +941,22 @@ h5{
         text-align: center;
         margin-left: 3px;
         padding-top: 5px;
-        font-size: 8px;
+        font-size: 9px;
     }
 
     .arrow{
         width: 33px;
         top: 75%;
     }
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 29vh;
+       
+    }
     .dots-container{
         margin-left: 66%;
-        bottom: 15px;
+        bottom: 20px;
         left: 1%;
     }
     .dot{
@@ -779,14 +1043,14 @@ h5{
     }
     .blue{
        
-        margin-top: -4%;
+        margin-top: -3%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: -4%;
+        margin-top: -3%;
         left: 3px;
         width: 25px;
         height: 40px;
@@ -800,11 +1064,17 @@ h5{
 
     .arrow{
         width: 32px;
-        top: 73%;
+        top: 71%;
+    }
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 29vh;
+       
     }
     .dots-container{
         margin-left: 66%;
-        bottom: 15px;
+        bottom: 20px;
         left: 1%;
     }
     .dot{
@@ -874,7 +1144,7 @@ h5{
 }
 
 }
-@media only screen  and (min-width: 385px) and (max-width:420px){
+@media only screen  and (min-width: 385px) and (max-width:400px){
     .topnav{
         display: flex;
        
@@ -914,11 +1184,135 @@ h5{
 
     .arrow{
         width: 33px;
-        top: 73%;
+        top: 70%;
+    }
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 29vh;
+       
     }
     .dots-container{
         margin-left: 66%;
-        bottom: 15px;
+        bottom: 23px;
+        left: 1%;
+    }
+    .dot{
+        width: 18px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2px;
+    }
+    .text{
+        font-size: 17px;
+        padding-right: 35px;
+        padding-left: -1px;
+    }
+    .img-container img{
+        padding: 55px;
+        margin-top: 20px;
+    }
+    .link2{
+        margin-top: 4px;
+    }
+    .link4{
+        margin-top: 4px;
+    }
+    .link6{
+        margin-top: 4px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .card1{
+        padding-left: 14px;
+        padding-top: 24px;
+    }
+    .name{
+        font-size: 12px;
+        
+    }
+    
+.sign{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.heading{
+    font-size: 18px;
+}
+.card{
+    width: 320px;
+}
+.card2, .card3, .smallcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+    width: 320px;
+    
+}
+}
+@media only screen  and (min-width: 400px) and (max-width:421px){
+    .topnav{
+        display: flex;
+       
+    }
+    .menu{
+        margin-right: 300px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .slider-container{
+        
+        max-width: 80%;
+        margin-top: -60%;
+      
+    }
+    .blue{
+       
+        margin-top: -7%;
+        padding-right: 3px;
+    }
+    .black{
+        
+        position: absolute;
+        z-index: 1;
+        margin-top: -7%;
+        left:0;
+        width: 50px;
+        height: 40px;
+    }
+    .line1{
+        text-align: center;
+        margin-left: 3px;
+        padding-top: 5px;
+        font-size: 9px;
+    }
+
+    .arrow{
+        width: 33px;
+        top: 74%;
+    }
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 29vh;
+       
+    }
+    .dots-container{
+        margin-left: 66%;
+        bottom: 23px;
         left: 1%;
     }
     .dot{
@@ -1025,12 +1419,20 @@ h5{
     }
 
     .arrow{
-        width: 33px;
-        top: 73%;
+        width: 30px;
+        top: 75%;
+    }
+   
+    .slide img   {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 29vh;
+       
+       
     }
     .dots-container{
         margin-left: 66%;
-        bottom: 15px;
+        bottom: 25px;
         left: 1%;
     }
     .dot{
@@ -1136,10 +1538,15 @@ h5{
         padding-top: 5px;
         font-size: 10px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 29vh;
+       
+    }
     .arrow{
         width: 34px;
-        top: 70%;
+        top: 76%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1211,7 +1618,7 @@ h5{
 }
 
 }
-@media only screen  and (min-width: 461px) and (max-width:500px){
+@media only screen  and (min-width: 461px) and (max-width:501px){
     .topnav{
         display: flex;
        
@@ -1230,14 +1637,14 @@ h5{
     }
     .blue{
        
-        margin-top: 5%;
+        margin-top: 3%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 5%;
+        margin-top: 3%;
         left: 0;
         width: 50px;
         height: 40px;
@@ -1246,12 +1653,17 @@ h5{
         text-align: center;
         margin-left: 3px;
         padding-top: 5px;
-        font-size: 12px;
+        font-size: 11px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 29vh;
+       
+    }
     .arrow{
         width: 33px;
-        top: 75%;
+        top: 78%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1328,7 +1740,7 @@ h5{
 }
 
 }
-@media only screen  and (min-width: 500px) and (max-width:545px){
+@media only screen  and (min-width: 501px) and (max-width:545px){
     .topnav{
         display: flex;
        
@@ -1347,28 +1759,33 @@ h5{
     }
     .blue{
        
-        margin-top: 5%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 5%;
+        margin-top: 2%;
         left: -3px;
-        width: 50px;
+        width: 60px;
         height: 40px;
     }
     .line1{
         text-align: center;
         margin-left: 3px;
         padding-top: 5px;
-        font-size: 12px;
+        font-size: 11px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 32vh;
+       
+    }
     .arrow{
         width: 33px;
-        top: 76%;
+        top: 75%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1462,14 +1879,14 @@ h5{
     }
     .blue{
        
-        margin-top: 4%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 4%;
+        margin-top: 2%;
         left: -6px;
         width: 50px;
         height: 40px;
@@ -1480,10 +1897,15 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 32vh;
+       
+    }
     .arrow{
         width: 35px;
-        top: 73%;
+        top: 76%;
     }
     .dots-container{
         margin-left: 69%;
@@ -1579,14 +2001,14 @@ h5{
     }
     .blue{
        
-        margin-top: 4%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 4cqh;
+        margin-top: 2%;
         left: -18px;
         width: 70px;
         height: 40px;
@@ -1597,10 +2019,15 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 32vh;
+       
+    }
     .arrow{
         width: 34px;
-        top: 74%;
+        top: 77%;
     }
     .dots-container{
         margin-left: 69%;
@@ -1693,13 +2120,13 @@ h5{
     }
     .blue{
        
-        margin-top: 5%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 5%;
+        margin-top: 2%;
         left: -22px;
         width: 70px;
         height: 40px;
@@ -1710,7 +2137,12 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 33vh;
+       
+    }
     .arrow{
         width: 35px;
         top: 74%;
@@ -1806,21 +2238,21 @@ h5{
     }
     .slider-container{
         
-        max-width: 70%;
+        max-width: 73%;
         margin-top: -39%;
       
     }
     .blue{
        
-        margin-top: 5%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 5%;
-        left: -31px;
+        margin-top: 2%;
+        left: -19px;
         width: 75px;
         height: 40px;
     }
@@ -1830,10 +2262,15 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 33vh;
+       
+    }
     .arrow{
         width: 33px;
-        top: 74%;
+        top: 77%;
     }
     .dots-container{
         margin-left: 66%;
@@ -1851,8 +2288,8 @@ h5{
     }
     .text{
         font-size: 20px;
-        padding-right: 19%;
-        padding-left: 40px;
+        padding-right: 16%;
+        padding-left: 24px;
     }
     .img-container img{
         width: 280px;
@@ -1919,21 +2356,21 @@ h5{
     }
     .slider-container{
         
-        max-width: 66%;
+        max-width: 74%;
         margin-top: -37%;
       
     }
     .blue{
        
-        margin-top: 6%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 6%;
-        left: -46px;
+        margin-top: 2%;
+        left: -19px;
         width: 90px;
         height: 40px;
     }
@@ -1943,7 +2380,12 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 33vh;
+       
+    }
     .arrow{
         width: 35px;
         top: 75%;
@@ -1964,7 +2406,7 @@ h5{
     .text{
         font-size: 20px;
         padding-right: 19%;
-        padding-left: 49px;
+        padding-left: 19px;
     }
     .img-container img{
         width: 300px;
@@ -1994,7 +2436,7 @@ h5{
         font-size: 18px;
     }
     .card{
-        width: 375px;
+        width: 390px;
     }
     .card2, .card3, .smallcards{
         display: flex;
@@ -2029,21 +2471,21 @@ h5{
     }
     .slider-container{
        
-        max-width: 64%;
+        max-width: 74%;
         margin-top: -34%;
       
     }
     .blue{
        
-        margin-top: 5%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 6%;
-        left: -52px;
+        margin-top: 2%;
+        left: -20px;
         width: 90px;
         height: 40px;
     }
@@ -2053,7 +2495,12 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 33vh;
+       
+    }
     .arrow{
         width: 35px;
         top: 72%;
@@ -2074,8 +2521,8 @@ h5{
     .text{
       
         font-size: 19px;
-        padding-right: 19%;
-        padding-left: 59px;
+        padding-right: 12%;
+        padding-left: 20px;
     }
     .img-container img{
         margin-top: 10px;
@@ -2115,7 +2562,7 @@ h5{
         gap: 0;
     }
     .link1, .link2, .link3, .link4, .link5, .link6{
-        width: 392px;
+        width: 395px;
     }
     .link2{
         margin-top: 4px;
@@ -2140,21 +2587,21 @@ h5{
     }
     .slider-container{
        
-        max-width: 64%;
+        max-width: 74%;
         margin-top: -34%;
       
     }
     .blue{
        
-        margin-top: 5%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 5%;
-        left: -55px;
+        margin-top: 2%;
+        left: -20px;
         width: 99px;
         height: 40px;
     }
@@ -2164,7 +2611,12 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 33vh;
+       
+    }
     .arrow{
         width: 35px;
         top: 72%;
@@ -2185,8 +2637,8 @@ h5{
     .text{
       
         font-size: 20px;
-        padding-right: 19%;
-        padding-left: 57px;
+        padding-right: 15%;
+        padding-left: 20px;
     }
     .img-container img{
         margin-top: 10px;
@@ -2251,21 +2703,21 @@ h5{
     }
     .slider-container{
        
-        max-width: 66%;
+        max-width: 74%;
         margin-top: -34%;
       
     }
     .blue{
        
-        margin-top: 5%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 6%;
-        left: -49px;
+        margin-top: 2%;
+        left: -20px;
         width: 90px;
         height: 40px;
     }
@@ -2275,10 +2727,15 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 33vh;
+       
+    }
     .arrow{
         width: 35px;
-        top: 74%;
+        top: 76%;
     }
     .dots-container{
         margin-left: 66%;
@@ -2297,7 +2754,7 @@ h5{
       
         font-size: 20px;
         padding-right: 20%;
-        padding-left: 57px;
+        padding-left: 23px;
     }
     .img-container img{
         margin-top: 10px;
@@ -2362,21 +2819,21 @@ h5{
     }
     .slider-container{
         
-        max-width: 72%;
+        max-width: 74%;
         margin-top: -33%;
        
     }
     .blue{
        
-        margin-top: 5%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 5%;
-        left: -28px;
+        margin-top: 2%;
+        left: -22px;
         width: 120px;
         height: 40px;
     }
@@ -2386,10 +2843,15 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 35vh;
+       
+    }
     .arrow{
-        width: 39px;
-        top: 66%;
+        width: 34px;
+        top: 73%;
     }
     .dots-container{
         margin-left: 66%;
@@ -2408,7 +2870,7 @@ h5{
         font-size: 20px;
        
         padding-right: 22%;
-        padding-left: 50px;
+        padding-left: 20px;
        
         
     }
@@ -2462,7 +2924,7 @@ h5{
     }
 
 }
-@media only screen  and (min-width: 750px) and (max-width:800px){
+@media only screen  and (min-width: 750px) and (max-width:761px){
     .topnav{
         display: flex;
        
@@ -2475,21 +2937,21 @@ h5{
     }
     .slider-container{
         
-        max-width: 73%;
+        max-width: 72%;
         margin-top: -30%;
        
     }
     .blue{
        
-        margin-top: 5%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         
         position: absolute;
         z-index: 1;
-        margin-top: 5%;
-        left: -28px;
+        margin-top: 2%;
+        left: -30px;
         width: 98px;
         height: 40px;
     }
@@ -2499,10 +2961,133 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 34vh;
+       
+    }
     .arrow{
         width: 33px;
-        top: 63%;
+        top: 71%;
+    }
+    .dots-container{
+        margin-left: 72%;
+        bottom: 15px;
+        left: 1%;
+    }
+    .dot{
+        width: 18px;
+    }
+    .info{
+        display: flex;
+        flex-direction:column;
+       justify-content: center;
+       align-items: center;
+       margin-top: 10px;
+    }
+    .text{
+        font-size: 19px;
+        padding-right: 19%;
+        padding-left: 5%;
+      
+    }
+    .img-container img{
+        width: 390px;
+        margin-right: 20px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* padding: 20px; */
+        margin-top: 25px;
+    }
+   
+    
+    .name{
+        font-size: 12px;
+        /* padding-left: 26px; */
+        
+    }
+    .sign{
+        font-size: 13px;
+        padding-right: 7px;
+    }
+    .heading{
+        font-size: 17px;
+    }
+    .card{
+        width: 170px;
+    }
+
+    .card2, .card3, .smallcards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .link1, .link2, .link3, .link4, .link5, .link6{
+        width: 170px;
+    }
+    .link2{
+        margin-top: 4px;
+    }
+    .link4{
+        margin-top: 4px;
+    }
+    .link6{
+        margin-top: 4px;
+    }
+}
+@media only screen  and (min-width: 761px) and (max-width:800px){
+    .topnav{
+        display: flex;
+       
+    }
+    .menu{
+        margin-right: 200px;
+    }
+    .logo{
+        margin-left: 45px;
+    }
+    .slider-container{
+        
+        max-width: 72%;
+        margin-top: -30%;
+       
+    }
+    .blue{
+       
+        margin-top: 2%;
+        padding-right: 3px;
+    }
+    .black{
+        
+        position: absolute;
+        z-index: 1;
+        margin-top: 2%;
+        left: -31px;
+        width: 98px;
+        height: 40px;
+    }
+    .line1{
+        text-align: center;
+        margin-left: 3px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 34vh;
+       
+    }
+    .arrow{
+        width: 33px;
+        top: 74%;
     }
     .dots-container{
         margin-left: 72%;
@@ -2594,13 +3179,13 @@ h5{
     }
     .blue{
        
-        margin-top: 9%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 9%;
+        margin-top: 2%;
         left: -4px;
         width: 80px;
         height: 40px;
@@ -2611,10 +3196,16 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 35vh;
+       
+    }
+    
     .arrow{
-        width: 39px;
-        top: 62%;
+        width: 37px;
+        top: 70%;
     }
     .dots-container{
         margin-left: 69%;
@@ -2701,13 +3292,13 @@ h5{
     }
     .blue{
        
-        margin-top: 9%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 9%;
+        margin-top: 2%;
         left: -5px;
         width: 90px;
         height: 45px;
@@ -2718,10 +3309,15 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 35vh;
+       
+    }
     .arrow{
         width: 35px;
-        top: 63%;
+        top: 69%;
     }
     .dots-container{
         margin-left: 69%;
@@ -2809,13 +3405,13 @@ h5{
     }
     .blue{
        
-        margin-top: 10%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 10%;
+        margin-top: 2%;
         left: 9px;
         width: 85px;
         height: 40px;
@@ -2826,10 +3422,15 @@ h5{
         padding-top: 5px;
         font-size: 12px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 36vh;
+       
+    }
     .arrow{
         width: 35px;
-        top: 60%;
+        top: 66%;
     }
     .dots-container{
         margin-left: 77%;
@@ -2923,13 +3524,13 @@ h5{
     }
     .blue{
        
-        margin-top: 12%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 12%;
+        margin-top: 2%;
         left: 7px;
         width: 90px;
         height: 50px;
@@ -2940,10 +3541,15 @@ h5{
         padding-top: 5px;
         font-size: 14px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 36vh;
+       
+    }
     .arrow{
         width: 39px;
-        top: 62%;
+        top: 64%;
     }
     .dots-container{
         margin-left: 66%;
@@ -3030,13 +3636,13 @@ h5{
     }
     .blue{
        
-        margin-top: 14%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 14%;
+        margin-top: 2%;
         left: 45px;
         width: 70px;
         height: 40px;
@@ -3047,7 +3653,12 @@ h5{
         padding-top: 5px;
         font-size: 14px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 35vh;
+       
+    }
     .arrow{
         width: 39px;
         top: 59%;
@@ -3135,13 +3746,13 @@ h5{
     }
     .blue{
        
-        margin-top: 12%;
+        margin-top: 2%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 12%;
+        margin-top: 2%;
         left: 52px;
         width: 80px;
         height: 40px;
@@ -3152,10 +3763,15 @@ h5{
         padding-top: 5px;
         font-size: 14px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 35vh;
+       
+    }
     .arrow{
         width: 35px;
-        top: 52%;
+        top: 56%;
     }
     .dots-container{
         margin-left: 66%;
@@ -3242,13 +3858,13 @@ h5{
     }
     .blue{
        
-        margin-top: 12%;
+        margin-top: 5%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 12%;
+        margin-top: 5%;
         left: 58px;
         width: 40px;
         height: 50px;
@@ -3259,10 +3875,15 @@ h5{
         padding-top: 5px;
         font-size: 14px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 35vh;
+       
+    }
     .arrow{
         width: 35px;
-        top: 52%;
+        top: 59%;
     }
     .dots-container{
         margin-left: 66%;
@@ -3349,13 +3970,13 @@ h5{
     }
     .blue{
        
-        margin-top: 12%;
+        margin-top: 5%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 12%;
+        margin-top: 5%;
         left: 66px;
         width: 30px;
         height: 50px;
@@ -3366,10 +3987,15 @@ h5{
         padding-top: 5px;
         font-size: 14px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 35vh;
+       
+    }
     .arrow{
         width: 39px;
-        top: 51%;
+        top: 59%;
     }
     .dots-container{
         margin-left: 66%;
@@ -3457,13 +4083,13 @@ h5{
     }
     .blue{
        
-        margin-top: 12%;
+        margin-top: 5%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 12%;
+        margin-top: 5%;
         left: 72px;
         width: 30px;
         height: 50px;
@@ -3474,10 +4100,15 @@ h5{
         padding-top: 5px;
         font-size: 15px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 35vh;
+       
+    }
     .arrow{
         width: 39px;
-        top: 49%;
+        top: 57%;
     }
     .dots-container{
         margin-left: 79%;
@@ -3567,13 +4198,13 @@ h5{
     }
     .blue{
        
-        margin-top: 12%;
+        margin-top: 5%;
         padding-right: 3px;
     }
     .black{
         position: absolute;
         z-index: 1;
-        margin-top: 12%;
+        margin-top: 5%;
         left: 76px;
         width: 30px;
         height: 50px;
@@ -3584,10 +4215,15 @@ h5{
         padding-top: 5px;
         font-size: 15px;
     }
-
+    .slide img {
+        margin-top: 150px;
+        width: 100%;
+        min-height: 35vh;
+       
+    }
     .arrow{
         width: 39px;
-        top: 49%;
+        top: 57%;
     }
     .dots-container{
         margin-left: 79%;
